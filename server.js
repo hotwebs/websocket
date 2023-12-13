@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 
-const wss = new WebSocket.Server({ port: 8080 }); // 创建 WebSocket 服务器
+const wss = new WebSocket.Server({ port: 1000 }); // 创建 WebSocket 服务器
 
 wss.on('connection', (ws) => {
   console.log('A client connected');
